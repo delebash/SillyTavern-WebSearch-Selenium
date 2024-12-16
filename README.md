@@ -17,6 +17,16 @@ git clone https://github.com/SillyTavern/SillyTavern-WebSearch-Selenium
 
 3. Restart the SillyTavern server. Then choose "Selenium Plugin" as a source in the Web Search extension UI.
 
+4.  Install a Selenium Web Driver for the browser you want to use
+
+    Chrome’s browser drivers: [ChromeDriver](https://developer.chrome.com/docs/chromedriver/)
+    
+    FireFox’s browser drivers: [GeckoDriver](https://github.com/mozilla/geckodriver/releases)
+    
+    Edge’s browser drivers: [Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/?form=MA13LH)
+    
+    Safari has browser drivers already built in.
+   
 ## Configuration
 
 The plugin can be configured using [environment variables](https://dev.to/pizofreude/environment-variables-a-comprehensive-guide-34dg) before startup:
